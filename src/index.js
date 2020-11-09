@@ -33,16 +33,24 @@ function fetchData() {
     lodashのrandom()を使って、80%の確率で正しいデータを返し、20%の確率でエラーを返すようにしましょう。
     またsetTimeoutを利用して、1秒待ってから結果を得るようにします。
   */
- const promiseData = () => {
-  return new Promise(true, false) => {
-    true(1)
-  }
+ let promise = new Promise(function(resolve, reject){
+   if(80% true){ 
+     return ture
+   }else(20% false){  
+     return false
+   }
+   setTimeout( () => resolve ("done!"), 1000 );
+ });
 }
- _.random(80% true, 20% false);{
-}
-setTimeout( () => resolve ("done!"), 1000 );
-
 { 
   const button1 = document.getElementById('button1');
   button1.addEventListener("click", handleClick);
 }
+// const promiseData = () => {
+//   return new Promise(true, false) => {
+//     true(1)
+//   }
+// }
+//  _.random(80% true, 20% false);{
+// }
+// setTimeout( () => resolve ("done!"), 1000 );
