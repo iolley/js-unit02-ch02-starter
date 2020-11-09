@@ -38,10 +38,11 @@ function fetchData() {
     true(1)
   }
 }
- _.random(80% true, 20% false);
+ _.random(80% true, 20% false);{
 }
+setTimeout( () => resolve ("done!"), 1000 );
 
-{
+{ 
   const button1 = document.getElementById('button1');
   button1.addEventListener("click", handleClick);
 }
