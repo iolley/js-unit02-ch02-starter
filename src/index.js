@@ -37,11 +37,11 @@ function fetchData() {
   return new Promise(true, false) => {
     true(1)
   }
-   if(_.random(80% true);{ 
-   }else(_.random (20% false);
+  _.random(80% true, 20% false);{
+   if(8%10 true);{ 
+   }else(2%10 false);
    setTimeout( () => resolve ("done!"), 1000 );
- });
-}
+ };
 { 
   const button1 = document.getElementById('button1');
   button1.addEventListener("click", handleClick);
