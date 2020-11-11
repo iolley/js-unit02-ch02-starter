@@ -34,11 +34,11 @@ function fetchData() {
     またsetTimeoutを利用して、1秒待ってから結果を得るようにします。
   */
  let promise = new Promise(function(resolve, reject){
-   if(80% true){ 
-     return ture
-   }else(20% false){  
-     return false
-   }
+  return new Promise(true, false) => {
+    true(1)
+  }
+   if(_.random(80% true);{ 
+   }else(_.random (20% false);
    setTimeout( () => resolve ("done!"), 1000 );
  });
 }
